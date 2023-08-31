@@ -1,5 +1,5 @@
 const express= require('express');
-
+//routes connections
 const router = express.Router();
 const patientController = require('../../../controllers/api/v1/patient_controller');
 const reportController =require('../../../controllers/api/v1/report_controller');

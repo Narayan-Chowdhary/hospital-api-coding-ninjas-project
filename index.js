@@ -1,7 +1,8 @@
 const express = require('express');
+//port
 const port =process.env.PORT || 8000;
 const db = require('./config/mongoose');
-
+//passport config
 const passport = require('passport');
 const passportJWT = require('./config/passport_jwt_strategy');
 

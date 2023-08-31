@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+//patientSchema
 const patientSchema = new mongoose.Schema({
     
   phone: {

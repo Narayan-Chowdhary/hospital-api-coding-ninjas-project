@@ -35,23 +35,7 @@ module.exports.create_report= async function(req,res){
 //find patient with id and send report
 //change to exec-->then exec
 module.exports.all_reports= async function(req,res){
-//    try{
-//     const reports =await Report.find({ "pratient": req.params.id });
-//     reports.exec(function (err, report) {
-//       return res.send(report);
-//   }
-  
-//   )
-  
 
-// }
-//    catch (err) {
-//     // Error handling
-//     return res.status(401).json({
-//       success: false,
-//       msg:err.message,
-//     });
-//   }
   Report.find({"patient":req.params.id},function(err, report) {
       if(err){
         return res.status(401).json({
