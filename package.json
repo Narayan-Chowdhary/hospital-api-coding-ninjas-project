@@ -1,0 +1,33 @@
+{
+  "name": "hospital-api-coding-ninjas-project",
+  "version": "1.0.0",
+  "description": "this is  coding ninjas backend skill test",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Narayan-Chowdhary/hospital-api-coding-ninjas-project.git"
+  },
+  "keywords": [
+    "hospital",
+    "API"
+  ],
+  "author": "Narayan Chowdhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Narayan-Chowdhary/hospital-api-coding-ninjas-project/issues"
+  },
+  "homepage": "https://github.com/Narayan-Chowdhary/hospital-api-coding-ninjas-project#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.5",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0"
+  }
+}
